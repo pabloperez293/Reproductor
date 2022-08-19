@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* card */
+.player{
+    background-image: linear-gradient(black , grey);
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px black;
+}
+.fondo{
+    background-color: rgb(63, 63, 63);
+}
+/* ¨Progreso" */
+.progreso-container{
+    height: .1rem;
+    background-color: rgb(175, 174, 171);
+    margin-bottom: 1rem;
+}
+.progreso{
+    background-color:#21DBAA ;
+    width: 45%;
+    height: 100%;
+}
+
+/* controles */
+.controles{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.controles button{
+    background-color: transparent;
+    border: none;
+    color: #1bd3a2;
+}
+
+/* lista  */
+.lista{
+    margin: 2px;
+    list-style: none;
+}
+.lista li{
+    margin-bottom: 3px;
+}
+.lista li a {
+    color: #1bd3a2;
+    text-decoration: none;
+}
+.lista a.active{
+    color: aliceblue;
+    font-weight: bold;
+}
